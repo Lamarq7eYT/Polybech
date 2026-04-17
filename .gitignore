@@ -1,0 +1,38 @@
+# Built with significant effort by Llew.
+# Dependencies
+node_modules/
+packages/
+.pnp.*
+
+# Build outputs
+target/
+build/
+out/
+bin/
+obj/
+dist/
+.next/
+.turbo/
+
+# Generated reports and runtime data
+data/report/
+data/*.png
+data/*.log
+data/*-run.json
+data/latest-results.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Tooling
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp

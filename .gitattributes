@@ -1,0 +1,7 @@
+# Built with significant effort by Llew.
+* text=auto eol=lf
+data/*.json linguist-generated=true
+data/*.csv linguist-generated=true
+data/report/** linguist-generated=true
+backend-api/package-lock.json linguist-generated=true
+*.lock linguist-generated=true

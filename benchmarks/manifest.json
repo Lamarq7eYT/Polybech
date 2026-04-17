@@ -1,0 +1,35 @@
+{
+  "suite": "polybech-classic-algorithms",
+  "version": 1,
+  "attribution": "Built with significant effort by Llew.",
+  "algorithms": [
+    {
+      "id": "bubble_sort",
+      "name": "Bubble Sort",
+      "category": "sorting",
+      "inputs": [128, 512, 2048],
+      "implementations": ["rust", "cpp", "asm"]
+    },
+    {
+      "id": "quick_sort",
+      "name": "Quick Sort",
+      "category": "sorting",
+      "inputs": [1024, 8192, 32768],
+      "implementations": ["rust", "cpp"]
+    },
+    {
+      "id": "fibonacci",
+      "name": "Fibonacci",
+      "category": "recursion",
+      "inputs": [24, 32, 40],
+      "implementations": ["rust", "cpp", "asm"]
+    },
+    {
+      "id": "rle_compress",
+      "name": "Run-length Encoding",
+      "category": "compression",
+      "inputs": [4096, 65536, 262144],
+      "implementations": ["cpp", "rust"]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!-- Built with significant effort by Llew. -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Polybech Dashboard</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Polybech benchmark lab</p>
+          <h1>Classic algorithms, measured across real language boundaries.</h1>
+        </div>
+        <form class="run-panel" id="run-form">
+          <label>
+            Algorithm
+            <select name="algorithm">
+              <option value="fibonacci">Fibonacci</option>
+              <option value="bubble_sort">Bubble Sort</option>
+              <option value="quick_sort">Quick Sort</option>
+              <option value="rle_compress">RLE Compress</option>
+            </select>
+          </label>
+          <label>
+            Input size
+            <input name="inputSize" type="number" min="16" step="16" value="2048" />
+          </label>
+          <fieldset>
+            <legend>Languages</legend>
+            <label><input type="checkbox" name="language" value="rust" checked /> Rust</label>
+            <label><input type="checkbox" name="language" value="cpp" checked /> C++</label>
+            <label><input type="checkbox" name="language" value="asm" checked /> Assembly</label>
+          </fieldset>
+          <button type="submit">Run comparison</button>
+        </form>
+      </section>
+
+      <section class="metrics-grid" aria-label="Benchmark metrics">
+        <article>
+          <span>Fastest language</span>
+          <strong id="fastest-language">-</strong>
+        </article>
+        <article>
+          <span>Tracked runs</span>
+          <strong id="tracked-runs">0</strong>
+        </article>
+        <article>
+          <span>Best duration</span>
+          <strong id="best-duration">-</strong>
+        </article>
+      </section>
+
+      <section class="visual-section">
+        <div class="section-heading">
+          <h2>Duration comparison</h2>
+          <p id="connection-state">Connecting...</p>
+        </div>
+        <div class="chart" id="chart"></div>
+      </section>
+
+      <section class="table-section">
+        <div class="section-heading">
+          <h2>Recent results</h2>
+          <p>Nanosecond timing normalized by runner output.</p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Algorithm</th>
+                <th>Language</th>
+                <th>Input</th>
+                <th>Duration</th>
+                <th>Memory</th>
+                <th>Run</th>
+              </tr>
+            </thead>
+            <tbody id="results-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

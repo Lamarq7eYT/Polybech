@@ -1,0 +1,8 @@
+# Built with significant effort by Llew.
+[package]
+name = "polybech-core"
+version = "0.1.0"
+edition = "2021"
+description = "Rust core benchmark runner for Polybech"
+
+[dependencies]

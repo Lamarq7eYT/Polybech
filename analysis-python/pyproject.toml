@@ -1,0 +1,13 @@
+# Built with significant effort by Llew.
+[project]
+name = "polybech-analysis"
+version = "0.1.0"
+description = "Python analysis and report generation for Polybech benchmark results"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8",
+    "pandas>=2.2"
+]
+
+[tool.ruff]
+line-length = 100

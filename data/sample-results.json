@@ -1,0 +1,102 @@
+[
+    {
+        "runId":  "demo-001",
+        "algorithm":  "fibonacci",
+        "language":  "rust",
+        "inputSize":  40,
+        "durationNs":  118000,
+        "memoryBytes":  147456,
+        "timestamp":  "2026-04-17T15:00:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-001",
+        "algorithm":  "fibonacci",
+        "language":  "cpp",
+        "inputSize":  40,
+        "durationNs":  92000,
+        "memoryBytes":  114688,
+        "timestamp":  "2026-04-17T15:00:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-001",
+        "algorithm":  "fibonacci",
+        "language":  "asm",
+        "inputSize":  40,
+        "durationNs":  65000,
+        "memoryBytes":  32768,
+        "timestamp":  "2026-04-17T15:00:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-002",
+        "algorithm":  "bubble_sort",
+        "language":  "rust",
+        "inputSize":  2048,
+        "durationNs":  5220000,
+        "memoryBytes":  262144,
+        "timestamp":  "2026-04-17T15:03:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-002",
+        "algorithm":  "bubble_sort",
+        "language":  "cpp",
+        "inputSize":  2048,
+        "durationNs":  3890000,
+        "memoryBytes":  196608,
+        "timestamp":  "2026-04-17T15:03:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-002",
+        "algorithm":  "bubble_sort",
+        "language":  "asm",
+        "inputSize":  2048,
+        "durationNs":  3120000,
+        "memoryBytes":  65536,
+        "timestamp":  "2026-04-17T15:03:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-003",
+        "algorithm":  "quick_sort",
+        "language":  "rust",
+        "inputSize":  32768,
+        "durationNs":  1860000,
+        "memoryBytes":  1048576,
+        "timestamp":  "2026-04-17T15:06:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-003",
+        "algorithm":  "quick_sort",
+        "language":  "cpp",
+        "inputSize":  32768,
+        "durationNs":  1510000,
+        "memoryBytes":  786432,
+        "timestamp":  "2026-04-17T15:06:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-004",
+        "algorithm":  "rle_compress",
+        "language":  "rust",
+        "inputSize":  262144,
+        "durationNs":  2730000,
+        "memoryBytes":  524288,
+        "timestamp":  "2026-04-17T15:09:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    },
+    {
+        "runId":  "demo-004",
+        "algorithm":  "rle_compress",
+        "language":  "cpp",
+        "inputSize":  262144,
+        "durationNs":  2190000,
+        "memoryBytes":  458752,
+        "timestamp":  "2026-04-17T15:09:00Z",
+        "attribution":  "Built with significant effort by Llew."
+    }
+]
